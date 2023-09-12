@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.rotate-36 {
+  animation: rotate 4s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.home-shap-1 {
+  top: 5%;
+  left: 1%;
+  z-index: -1;
+  animation: home-shap-1 infinite 30s;
+}
+
+@keyframes home-shap-1 {
+  0% {
+    top: 5%;
+    left: 1%;
+  }
+  25% {
+    top: 40%;
+    left: 3%;
+  }
+  50% {
+    top: 60%;
+    left: 20%;
+  }
+  75% {
+    top: 20%;
+    left: 10%;
+  }
+}
+
+.home-shap-2 {
+  top: 45%;
+  left: 65%;
+  animation: home-shap-2 infinite 30s;
+  z-index: -1;
+}
+
+@keyframes home-shap-2 {
+  0% {
+    top: 45%;
+    left: 65%;
+  }
+  25% {
+    top: 20%;
+    left: 50%;
+  }
+  50% {
+    top: 40%;
+    left: 30%;
+  }
+  75% {
+    top: 70%;
+    left: 40%;
+  }
+}
+.home-shap-3 {
+  top: 45%;
+  left: 65%;
+  animation: home-shap-3 infinite 25s;
+  z-index: -1;
+}
+
+@keyframes home-shap-3 {
+  0% {
+    top: 45%;
+    left: 65%;
+  }
+
+  40% {
+    top: 60%;
+    left: 33%;
+  }
+  60% {
+    top: 20%;
+    left: 10%;
+  }
+  100% {
+    top: 45%;
+    left: 65%;
+  }
+}
+
+.home-shap-4 {
+  top: 60%;
+  left: 90%;
+  animation: home-shap-4 infinite 25s;
+  z-index: -1;
+}
+
+@keyframes home-shap-4 {
+  0% {
+    top: 60%;
+    left: 90%;
+  }
+
+  40% {
+    top: 60%;
+    left: 93%;
+  }
+  60% {
+    top: 80%;
+    left: 90%;
+  }
+  100% {
+    top: 60%;
+    left: 90%;
+  }
+}
+.home-shap-5 {
+  top: 60%;
+  left: 0%;
+  animation: home-shap-5 infinite 25s;
+  z-index: -1;
+}
+
+@keyframes home-shap-5 {
+  0% {
+    top: 20%;
+    left: 80%;
+  }
+
+  40% {
+    top: 10%;
+    left: 80%;
+  }
+  60% {
+    top: 40%;
+    left: 80%;
+  }
+  100% {
+    top: 20%;
+    left: 80%;
+  }
+}
+.home-shap-6 {
+  top: 20%;
+  left: 80%;
+  animation: home-shap-6 infinite 25s;
+  z-index: -1;
+}
+
+@keyframes home-shap-6 {
+  0% {
+    top: 80%;
+    left: 20%;
+  }
+
+  40% {
+    top: 70%;
+    left: 40%;
+  }
+  60% {
+    top: 60%;
+    left: 60%;
+  }
+  100% {
+    top: 80%;
+    left: 20%;
+  }
+}
+
+.btn-fill {
+  @apply bg-main text-white font-semibold shadow py-3 px-10;
+}
+
+
+.title{
+    @apply text-3xl font-bold pb-2 text-neutral-900
+}
+
+.paragraf{
+    @apply  md:mt-3 font-normal block text-base sm:text-xl text-neutral-500 
+}
+
