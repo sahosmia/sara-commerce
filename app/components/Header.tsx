@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import {BiChevronDown, BiChevronRight} from 'react-icons/bi'
 import logo from "../../public/images/core/logo.png"
+import { categories } from '../data/dummy'
 
 const Header = () => {
 
